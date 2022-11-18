@@ -2,9 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         Boss boss = new Boss();
-        boss.health = 500;
-        boss.damage = 200;
-        boss.protectionType = "physical";
-        System.out.println("warrior:  " + boss.health + "damage:   " + boss.damage + "protectionType:   " + boss.protectionType);
+        boss.setHealth(500);
+        boss.setDamage(200);
+        boss.setProtectionType("physical");
+        System.out.println("warrior: " + boss.gethealth() + " damage: " + boss.getDamage() +
+                " protectionType:  " + boss.getProtectionType() );
     }
 }

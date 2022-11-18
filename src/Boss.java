@@ -1,8 +1,8 @@
 public class Boss {
 
-    int health;
-    int damage;
-    String protectionType;
+    private int health;
+    private int damage;
+    private String protectionType;
 
 
 
@@ -26,5 +26,5 @@ public class Boss {
     }
     public void setProtectionType(String protectionType){
         this.protectionType = protectionType;}
-
+    
 }
